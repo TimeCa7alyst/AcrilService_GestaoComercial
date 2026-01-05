@@ -57,6 +57,17 @@ O banco de dados segue um modelo relacional, estruturado da seguinte forma:
 * **Venda:** Gerada a partir de um orçamento único (1:1).
 * **Avaliação:** Vinculada diretamente a uma venda (1:1).
 
+
+## Pré-requisitos
+
+* **Java**
+* **Maven**
+* **Docker**
+
+```bash
+docker info
+mvn compile exec:java "-Dexec.mainClass=View.Swing.MainDocker"
+```
 ---
 
 <p align="center">
