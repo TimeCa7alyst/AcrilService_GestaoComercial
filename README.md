@@ -14,7 +14,7 @@ Os principais objetivos do sistema incluem:
 
 ## 🛠️ Arquitetura e Tecnologias
 
-O sistema utiliza a **Arquitetura Hexagonal** para isolar o núcleo da aplicação (model) de tecnologias externas, como banco de dados e interfaces gráficas, garantindo baixo acoplamento e alta escalabilidade.
+O sistema utiliza a **Arquitetura em camadas** para isolar o núcleo da aplicação (model) de tecnologias externas, como banco de dados e interfaces gráficas, garantindo baixo acoplamento e alta escalabilidade.
 
 * **Linguagem:** Java.
 * **Banco de Dados:** SQL (MySQL/MySQL Workbench).
